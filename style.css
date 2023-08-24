@@ -1,0 +1,83 @@
+body{
+	display: flex;
+	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+	gap: 20px;
+	background-color: #8ca9c0;
+	background-image: url("images/repeatable_stripes.png");
+}
+#container{
+	display: flex;
+	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	flex-wrap: wrap;
+	gap: 20px;
+	background-color: #adc2d2;
+  	padding: 50px;
+  	border-radius: 50px;
+}
+#bio-container{
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	flex-wrap: wrap;
+  	width: 600px;
+}
+#icon{
+	background-color: #adc2d2;
+}
+#icon img{
+	width:300px;
+	height:300px;
+}
+#icon .credit{
+	text-align: right;
+}
+#bio{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #4C4C4C;
+}
+.credit{
+	font-family: 'Merriweather', serif;
+	color: #4C4C4C;
+	font-size: small;
+}
+#socials{
+	font-family: 'Merriweather', serif;
+	color: #4C4C4C;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	width: 600px;
+}
+#socials>div{
+	padding: 15px;
+	margin: 15px;
+	background-color: #8ca9c0;
+	border-radius: 20px;
+	text-align: center;
+	width: 600px;
+}
+#socials > a{
+	display: block;
+	padding: 15px;
+	margin: 15px;
+	background-color: #8ca9c0;
+	border-radius: 20px;
+	text-align: center;
+	width: 600px;
+	text-decoration: none;
+	color: inherit;
+}
+.label{
+	font-size: large;
+}
