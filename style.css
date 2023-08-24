@@ -5,10 +5,10 @@ body{
   	align-items: center;
   	flex-wrap: wrap;
 	width: 100vw;
-	height: 100vh;
-	gap: 20px;
+	height: 100%;
+	margin: 0px;
+	
 	background-color: #8ca9c0;
-	background-image: url("images/repeatable_stripes.png");
 }
 #container{
 	display: flex;
@@ -16,21 +16,20 @@ body{
   	align-content: center;
   	align-items: center;
   	flex-wrap: wrap;
-	gap: 20px;
-	background-color: #adc2d2;
-  	padding: 50px;
-  	border-radius: 50px;
+	gap: 10px;
+	background-color: #8ca9c0;
+	width: 100vw;
+	height: 100%;
+	padding: 20px;
 }
 #bio-container{
+	padding-top: 20px;
 	display: flex;
   	justify-content: center;
   	align-content: center;
   	align-items: center;
   	flex-wrap: wrap;
-  	width: 600px;
-}
-#icon{
-	background-color: #adc2d2;
+  	width: 80vw;
 }
 #icon img{
 	width:300px;
@@ -42,7 +41,7 @@ body{
 #bio{
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	color: #4C4C4C;
+	color: #16302B;
 }
 .credit{
 	font-family: 'Merriweather', serif;
@@ -51,33 +50,45 @@ body{
 }
 #socials{
 	font-family: 'Merriweather', serif;
-	color: #4C4C4C;
+	color: #16302B;
 	display: flex;
   	flex-wrap: wrap;
   	justify-content: center;
   	align-content: center;
   	align-items: center;
-  	width: 600px;
-}
-#socials>div{
-	padding: 15px;
-	margin: 15px;
-	background-color: #8ca9c0;
-	border-radius: 20px;
-	text-align: center;
-	width: 600px;
+  	gap: 10px;
+  	width: 80vw;
 }
 #socials > a{
 	display: block;
-	padding: 15px;
-	margin: 15px;
-	background-color: #8ca9c0;
+	padding: 10px;
+	background-color: #8d8cc0;
 	border-radius: 20px;
 	text-align: center;
-	width: 600px;
+	width: 100%;
 	text-decoration: none;
 	color: inherit;
 }
 .label{
 	font-size: large;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		height: 100vh;
+		background-image: url("images/repeatable_stripes.png");
+	}
+	#container {
+		padding: 50px;
+  		border-radius: 50px;
+  		width: 70vw;
+  		height: fit-content;
+		gap: 20px;
+	}
+	#bio-container {
+		width: 45%;
+	}
+	#socials {
+		width: 45%;
+	}
 }
