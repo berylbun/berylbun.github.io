@@ -46,6 +46,8 @@ body{
 	font-family: 'Merriweather', serif;
 	color: #16302B;
   	background-color: #8ca9c0bb;
+	padding: 20px;
+  	border-radius: 50px;
 }
 .credit{
 	font-family: 'Merriweather', serif;
